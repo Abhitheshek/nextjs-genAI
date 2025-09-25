@@ -46,7 +46,7 @@ export default function Hero({ user }: HeroProps) {
                   <span className="hidden sm:inline">{user.role === 'artisan' ? 'Seller Dashboard' : 'Browse Marketplace'}</span>
                 </Button>
               </Link>
-              <Link href={user.role === 'artisan' ? '/buyer' : '/seller'}>
+              <Link href={user.role === 'artisan' ? '/seller' : '/buyer'}>
                 <Button size="lg" variant="outline" className="w-full sm:w-auto border border-gray-200 text-black hover:border-gray-300 px-6 sm:px-10 py-3 sm:py-4 text-base sm:text-lg font-medium rounded-lg">
                   <span className="sm:hidden">{user.role === 'artisan' ? 'Shop' : 'Sell'}</span>
                   <span className="hidden sm:inline">{user.role === 'artisan' ? 'Shop Products' : 'Start Selling'}</span>
