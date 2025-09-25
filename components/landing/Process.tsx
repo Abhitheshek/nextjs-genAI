@@ -35,7 +35,7 @@ export default function Process() {
             <div key={index} className="text-center group border-2 border-gray-200 p-6 sm:p-8 lg:p-10 rounded-3xl hover:shadow-lg transition-shadow">
               <div className="text-5xl sm:text-6xl lg:text-8xl font-light text-blue-600 mb-6 sm:mb-8 lg:mb-10 group-hover:scale-110 transition-transform duration-300">{step.number}</div>
               <h3 className="text-xl sm:text-2xl lg:text-3xl font-medium text-black mb-4 sm:mb-6 lg:mb-8 tracking-tight">{step.title}</h3>
-              <p className="text-blue-600 leading-relaxed font-light text-base sm:text-lg max-w-sm mx-auto">
+              <p className="text-gray-700 leading-relaxed font-light text-base sm:text-lg max-w-sm mx-auto">
                 {step.description}
               </p>
             </div>

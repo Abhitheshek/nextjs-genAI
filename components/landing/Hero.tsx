@@ -26,7 +26,7 @@ export default function Hero({ user }: HeroProps) {
           <span className="text-xs sm:text-sm font-medium text-blue-700">Trusted by 10,000+ artisans</span>
         </div>
         
-        <h1 className="text-4xl sm:text-5xl lg:text-7xl font-semibold text-black mb-4 sm:mb-6 leading-tight tracking-tight">
+        <h1 className="text-5xl sm:text-5xl lg:text-7xl font-semibold text-black mb-4 sm:mb-6 leading-tight tracking-tight">
           The Future of
           <br />
           <span className="font-semibold text-blue-600">Artisan Commerce</span>

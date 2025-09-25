@@ -54,7 +54,7 @@ export default function RegisterPage() {
               type="text"
               value={formData.name}
               onChange={(e) => setFormData({...formData, name: e.target.value})}
-              className="w-full p-3 border rounded-md"
+              className="w-full p-3 border rounded-md bg-white text-black"
               required
             />
           </div>
@@ -65,7 +65,7 @@ export default function RegisterPage() {
               type="email"
               value={formData.email}
               onChange={(e) => setFormData({...formData, email: e.target.value})}
-              className="w-full p-3 border rounded-md"
+              className="w-full p-3 border rounded-md bg-white text-black"
               required
             />
           </div>
@@ -76,7 +76,7 @@ export default function RegisterPage() {
               type="password"
               value={formData.password}
               onChange={(e) => setFormData({...formData, password: e.target.value})}
-              className="w-full p-3 border rounded-md"
+              className="w-full p-3 border rounded-md bg-white text-black"
               required
             />
           </div>
@@ -86,7 +86,7 @@ export default function RegisterPage() {
             <select
               value={formData.role}
               onChange={(e) => setFormData({...formData, role: e.target.value as 'artisan' | 'buyer'})}
-              className="w-full p-3 border rounded-md"
+              className="w-full p-3 border rounded-md bg-white text-black"
             >
               <option value="buyer">Buyer</option>
               <option value="artisan">Artisan (Seller)</option>
@@ -98,7 +98,7 @@ export default function RegisterPage() {
             <select
               value={formData.preferredLanguage}
               onChange={(e) => setFormData({...formData, preferredLanguage: e.target.value})}
-              className="w-full p-3 border rounded-md"
+              className="w-full p-3 border rounded-md bg-white text-black"
             >
               <option value="en">English</option>
               <option value="hi">Hindi</option>

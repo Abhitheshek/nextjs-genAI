@@ -135,7 +135,7 @@ export default function ProductForm({ product, onSubmit, onCancel }: ProductForm
               type="text"
               value={formData.name}
               onChange={(e) => setFormData({...formData, name: e.target.value})}
-              className={`w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+              className={`w-full p-3 border rounded-lg bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                 errors.name ? 'border-red-500' : 'border-gray-300'
               }`}
               placeholder="Enter product name"
@@ -150,7 +150,7 @@ export default function ProductForm({ product, onSubmit, onCancel }: ProductForm
             <select
               value={formData.category}
               onChange={(e) => setFormData({...formData, category: e.target.value})}
-              className={`w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+              className={`w-full p-3 border rounded-lg bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                 errors.category ? 'border-red-500' : 'border-gray-300'
               }`}
             >
@@ -170,7 +170,7 @@ export default function ProductForm({ product, onSubmit, onCancel }: ProductForm
               type="number"
               value={formData.price}
               onChange={(e) => setFormData({...formData, price: Number(e.target.value)})}
-              className={`w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+              className={`w-full p-3 border rounded-lg bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                 errors.price ? 'border-red-500' : 'border-gray-300'
               }`}
               placeholder="0"
@@ -188,7 +188,7 @@ export default function ProductForm({ product, onSubmit, onCancel }: ProductForm
               type="number"
               value={formData.discount}
               onChange={(e) => setFormData({...formData, discount: Number(e.target.value)})}
-              className={`w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+              className={`w-full p-3 border rounded-lg bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                 errors.discount ? 'border-red-500' : 'border-gray-300'
               }`}
               placeholder="0"
@@ -206,7 +206,7 @@ export default function ProductForm({ product, onSubmit, onCancel }: ProductForm
               value={formData.description}
               onChange={(e) => setFormData({...formData, description: e.target.value})}
               rows={4}
-              className={`w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+              className={`w-full p-3 border rounded-lg bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                 errors.description ? 'border-red-500' : 'border-gray-300'
               }`}
               placeholder="Describe your product..."
@@ -257,7 +257,7 @@ export default function ProductForm({ product, onSubmit, onCancel }: ProductForm
                   setFormData({...formData, image: e.target.value});
                   setImagePreview(e.target.value);
                 }}
-                className={`w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+                className={`w-full p-3 border rounded-lg bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                   errors.image ? 'border-red-500' : 'border-gray-300'
                 }`}
                 placeholder="https://example.com/image.jpg"

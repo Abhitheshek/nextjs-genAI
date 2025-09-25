@@ -56,7 +56,7 @@ export default function LoginPage() {
               type="email"
               value={formData.email}
               onChange={(e) => setFormData({...formData, email: e.target.value})}
-              className="w-full p-3 border rounded-md"
+              className="w-full p-3 border rounded-md bg-white text-black"
               required
             />
           </div>
@@ -67,7 +67,7 @@ export default function LoginPage() {
               type="password"
               value={formData.password}
               onChange={(e) => setFormData({...formData, password: e.target.value})}
-              className="w-full p-3 border rounded-md"
+              className="w-full p-3 border rounded-md bg-white text-black"
               required
             />
           </div>

@@ -219,7 +219,7 @@ export default function CartPage() {
                     value={orderData.shippingAddress}
                     onChange={(e) => setOrderData({...orderData, shippingAddress: e.target.value})}
                     rows={3}
-                    className="w-full p-4 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full p-4 border border-gray-300 rounded-xl bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
                     placeholder="Enter your complete shipping address"
                     required
                   />

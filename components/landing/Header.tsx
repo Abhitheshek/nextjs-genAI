@@ -24,10 +24,10 @@ export default function Header({ user, onProfile }: HeaderProps) {
           </div>
           
           <nav className="hidden md:flex items-center gap-6 lg:gap-10">
-            <Link href="/products" className="text-gray-800 hover:text-gray-900 transition-colors text-sm font-medium">Products</Link>
-            <Link href="/sellers" className="text-gray-800 hover:text-gray-900 transition-colors text-sm font-medium">Sellers</Link>
-            <Link href="/about" className="text-gray-800 hover:text-gray-900 transition-colors text-sm font-medium">About</Link>
-            <Link href="/contact" className="text-gray-800 hover:text-gray-900 transition-colors text-sm font-medium">Contact</Link>
+            <Link href="" className="text-gray-800 hover:text-gray-900 transition-colors text-sm font-medium">Products</Link>
+            <Link href="" className="text-gray-800 hover:text-gray-900 transition-colors text-sm font-medium">Sellers</Link>
+            <Link href="" className="text-gray-800 hover:text-gray-900 transition-colors text-sm font-medium">About</Link>
+            <Link href="" className="text-gray-800 hover:text-gray-900 transition-colors text-sm font-medium">Contact</Link>
           </nav>
           
           <div className="flex items-center gap-2 sm:gap-3">

@@ -31,7 +31,7 @@ export default function CategorySection({ onCategorySelect }: CategorySectionPro
             <div
               key={category.name}
               onClick={() => onCategorySelect(category.name)}
-              className="flex flex-col items-center p-2 sm:p-4 border-1 border-gray-300 rounded-xl hover:shadow-md transition-all duration-200 cursor-pointer group"
+              className="flex flex-col items-center p-2 sm:p-4 border-1 border-gray-300 shadow-md   rounded-xl hover:shadow-md transition-all duration-200 cursor-pointer group"
             >
               <div className={`w-12 h-12 sm:w-16 sm:h-16 rounded-full ${category.color} flex items-center justify-center text-xl sm:text-2xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform`}>
                 {category.icon}
